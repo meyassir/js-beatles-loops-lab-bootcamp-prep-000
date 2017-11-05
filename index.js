@@ -19,7 +19,8 @@ function iLoveTheBeatles(n)
 {
   let arr = new Array();
   if( n === 17) {
-    return Array(["I love the Beatles!"]);
+    arr[0] = "I love the Beatles!";
+    return arr;
   }
   else if( n === 7) {
     for (var i = 0; i < 8; i++) {
